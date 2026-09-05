@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "cli": "bun src/cli.ts",
-    "run": "bun src/cli.ts run",
+    "run": "node init && bun src/cli.ts run",
     "serve": "bun src/cli.ts serve",
     "ui:dev": "vite dev ui",
     "ui:build": "vite build ui",
